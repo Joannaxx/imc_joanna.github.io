@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de IMC</title>
+        <meta charset="utf-8">
+    </head>
+    <body style= "background-color:antiquewhite">
+        <h1 align="center">Calculadora de IMC</h1>
+        <td>
+            <center>
+                <img src="img/img.jpg">
+            </center>
+            
+        </td>
+        <h2 align="justify">O que é IMC?</h2>
+            <p align="justify">Índice de Massa Corporal (IMC) é um cálculo que serve para avaliar se a pessoa está dentro do seu
+            peso ideal em relação à altura. Geralmente, a fórmula é usada por médicos, fisioterapeutas e educadores físicos para 
+            avaliar o estado de saúde dos seus pacientes.Ainda, o Índice de Massa Corporal também é utilizado pela Organização 
+            Mundial da Saúde (OMS) como o indicador oficial do nível de obesidade no mundo.</p>
+        <h2 align="justify">Qual a sua finalidade?</h2>
+            <p align="justify">Sua principal finalidade é informar se a pessoa está em seu peso e altura ideais para sua idade, ou seja, se ela está
+            saudável ou não. Estar dentro do peso certo é importante porque estar acima ou abaixo desse peso pode influenciar bastante 
+            a saúde, aumentando o risco de doenças como desnutrição quando se está abaixo do peso, e AVC ou infarto, quando se está acima do peso. </p>
+        <h2 align="justify">Como se calcula?</h2>    
+            <p align="justify">O cálculo do IMC deve ser feito usando a seguinte fórmula matemática: Peso ÷ Altura ao quadrado (altura x altura). 
+            Com o resultado obtido, basta identificar em qual faixa do IMC a pessoa se enquadra. Essas faixas são as seguintes: </p>
+                <ul>
+                    <li>Muito abaixo do peso: IMC variando entre 16 a 16,9 kg/m2;</li>
+                    <li>Abaixo do peso: IMC igual ou superior a 17 kg/m2, ou, igual ou menor que 18,4 kg/m2;</li>
+                    <li>Peso normal: IMC variando entre 18,5 a 24,9 kg/m2;</li>
+                    <li>Acima do peso: IMC igual ou superior a 25 kg/m2, ou, igual ou menor a 29,9 kg/m2;</li>
+                    <li>Obesidade grau I: IMC entre 30 a 34,9 kg/m2;</li>
+                    <li>Obesidade grau II: IMC entre 35 a 40 kg/m2;</li>
+                    <li>Obesidade grau III (obesidade mórbida): IMC maior que 40 kg/m2</li>
+                </ul>
+        <h2 align="justify">Como melhorar esses resultados?</h2>  
+            <p align="justify">Quando o resultado obtido não é o ideal, é possível adotar algumas medidas que ajudam a melhorá-lo. Na maioria dos casos, 
+            a mudança na alimentação é a forma mais eficaz de atingir o valor ideal do IMC. Ainda, quem está acima do peso precisa diminuir o Índice de Massa 
+            Corporal. Para isso, é necessário eliminar o acúmulo de gordura através da prática de atividades físicas e de alterações no cardápio diário,
+            reduzindo a ingestão de gorduras e aumentando o consumo de fibras e outros nutrientes. Por outro lado, quem está abaixo do peso precisa aumentar o seu IMC.
+            Para alcançar esse objetivo, recomenda-se a ingestão de alimentos ricos em vitaminas e minerais. Porém, também deve-se evitar o consumo de frituras, 
+            alimentos processados e gorduras trans. Calcule seu IMC na calculadora abaixo:</p>
+      
+            <main>
+                <div  class = "container">
+                <div  class = "input">
+                    <label> Nome: </label>
+                    <input  type = "text" id = 'nome'>
+                </div>
+                <div  class = "input">
+                    <label> Altura: </label>
+                    <input type = "number" id = 'altura'>
+                </div>
+                <div class = "input">
+                    <label> Peso: </label>
+                    <input type = "number" id = 'peso'>
+                </div>
+                <button  id = 'calculo' > Calcular </button>
+                <div style="color: darkcyan;" class = "resultado" id = 'resultado'> </div>
+                </div>
+            </main>  
+            <script src="script.js"></script> 
+    </body>
+</html>
